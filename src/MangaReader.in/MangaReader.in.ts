@@ -1,5 +1,5 @@
 import { Source, Manga, MangaStatus, Chapter, ChapterDetails, HomeSectionRequest, HomeSection, MangaTile, SearchRequest, LanguageCode, TagSection, Request, MangaUpdates, SourceTag, TagType, PagedResults } from "paperback-extensions-common"
-const SOURCE_DOMAIN = "https://mangareader.in/"
+const SOURCE_DOMAIN = "https://mangareader.in"
 
 export class MangaReader.in extends Source {
     constructor(cheerio: CheerioAPI) {
@@ -8,8 +8,8 @@ export class MangaReader.in extends Source {
 
     get version(): string { return '0.1.0' }
     get name(): string { return 'MangaReader.in' }
-    get description(): string { return 'A random Manga website... honestly... nothing special.' }
-    get author(): string { return 'Valve' }
+    get description(): string { return 'Nothing' }
+    get author(): string { return 'Noone' }
     get authorWebsite(): string { return '' }
     get icon(): string { return "logo.png" }
     get hentaiSource(): boolean { return false }
